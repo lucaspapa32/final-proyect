@@ -1,0 +1,32 @@
+/*Estilos crea tu cuenta/ingresá a tu cuenta*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        h2{
+            color: white;
+        }
+        .form-conteiner{
+            padding: 20px;
+            display: grid;
+            gap: 20px;
+            .submit-boton{
+                background-color: rgb(199, 217, 183);
+                border: none;
+                margin: 16px;
+                padding: 12px;
+                color: black ;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .input{
+            input{
+                text-align: center;
+                border: none;
+                height: 30px;
+                outline: solid 3px rgb(199, 217, 183);
+            }
+        }
+}
